@@ -1,0 +1,45 @@
+```
+# Godot-specific ignores
+.project
+.scn
+.gd
+.tres
+.res
+.cfg
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.exp
+*.lib
+*.sln
+*.vcxproj
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+# Dependencies
+node_modules/
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
+# System files
+.DS_Store
+Thumbs.db
+# Environment
+.env
+.env.local
+.env.*
+# Coverage
+coverage/
+htmlcov/
+.coverage
+```.next/
+dist/
+build/

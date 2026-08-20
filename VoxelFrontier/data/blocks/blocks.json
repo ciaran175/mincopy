@@ -1,0 +1,322 @@
+{
+  "blocks": [
+    {
+      "id": 0,
+      "name": "Air",
+      "solid": false,
+      "transparent": true,
+      "breakable": false,
+      "hardness": 0.0
+    },
+    {
+      "id": 1,
+      "name": "Grass Block",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 0.6,
+      "drop_item": 2,
+      "textures": {
+        "top": "grass_top",
+        "side": "grass_side",
+        "bottom": "dirt"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Dirt",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 0.5,
+      "texture": "dirt"
+    },
+    {
+      "id": 3,
+      "name": "Stone",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 1.5,
+      "drop_item": 15,
+      "texture": "stone"
+    },
+    {
+      "id": 4,
+      "name": "Sand",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 0.5,
+      "texture": "sand"
+    },
+    {
+      "id": 5,
+      "name": "Gravel",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 0.6,
+      "texture": "gravel"
+    },
+    {
+      "id": 6,
+      "name": "Clay",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 0.6,
+      "texture": "clay"
+    },
+    {
+      "id": 7,
+      "name": "Snow Block",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 0.2,
+      "texture": "snow"
+    },
+    {
+      "id": 8,
+      "name": "Ice",
+      "solid": true,
+      "transparent": true,
+      "breakable": true,
+      "hardness": 0.5,
+      "texture": "ice"
+    },
+    {
+      "id": 9,
+      "name": "Water",
+      "solid": false,
+      "transparent": true,
+      "liquid": true,
+      "breakable": false,
+      "hardness": 0.0,
+      "texture": "water"
+    },
+    {
+      "id": 10,
+      "name": "Oak Log",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 2.0,
+      "textures": {
+        "top": "log_oak_top",
+        "side": "log_oak_side"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Pine Log",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 2.0,
+      "textures": {
+        "top": "log_pine_top",
+        "side": "log_pine_side"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Oak Leaves",
+      "solid": true,
+      "transparent": true,
+      "breakable": true,
+      "hardness": 0.2,
+      "texture": "leaves_oak"
+    },
+    {
+      "id": 13,
+      "name": "Pine Leaves",
+      "solid": true,
+      "transparent": true,
+      "breakable": true,
+      "hardness": 0.2,
+      "texture": "leaves_pine"
+    },
+    {
+      "id": 14,
+      "name": "Planks",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 2.0,
+      "texture": "planks"
+    },
+    {
+      "id": 15,
+      "name": "Cobblestone",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 2.0,
+      "texture": "cobblestone"
+    },
+    {
+      "id": 16,
+      "name": "Coal Ore",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 3.0,
+      "texture": "ore_coal"
+    },
+    {
+      "id": 17,
+      "name": "Copper Ore",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 3.0,
+      "texture": "ore_copper"
+    },
+    {
+      "id": 18,
+      "name": "Iron Ore",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 4.0,
+      "texture": "ore_iron"
+    },
+    {
+      "id": 19,
+      "name": "Moon Crystal Ore",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 6.0,
+      "texture": "ore_crystal"
+    },
+    {
+      "id": 20,
+      "name": "Crafting Table",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 2.5,
+      "textures": {
+        "top": "crafting_table_top",
+        "side": "crafting_table_side",
+        "front": "crafting_table_front"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Storage Crate",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 2.5,
+      "texture": "storage_crate"
+    },
+    {
+      "id": 22,
+      "name": "Furnace",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 3.5,
+      "textures": {
+        "top": "furnace_top",
+        "side": "furnace_side",
+        "front": "furnace_front"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Torch",
+      "solid": false,
+      "transparent": true,
+      "breakable": true,
+      "hardness": 0.0,
+      "light_emission": 14,
+      "texture": "torch"
+    },
+    {
+      "id": 24,
+      "name": "Glass",
+      "solid": true,
+      "transparent": true,
+      "breakable": true,
+      "hardness": 0.3,
+      "texture": "glass"
+    },
+    {
+      "id": 25,
+      "name": "Brick",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 2.0,
+      "texture": "brick"
+    },
+    {
+      "id": 26,
+      "name": "Wooden Door",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 3.0,
+      "texture": "door_wood"
+    },
+    {
+      "id": 27,
+      "name": "Wooden Fence",
+      "solid": true,
+      "transparent": true,
+      "breakable": true,
+      "hardness": 2.0,
+      "texture": "fence_wood"
+    },
+    {
+      "id": 28,
+      "name": "Tall Grass",
+      "solid": false,
+      "transparent": true,
+      "breakable": true,
+      "hardness": 0.0,
+      "texture": "tall_grass"
+    },
+    {
+      "id": 29,
+      "name": "Sunflower",
+      "solid": false,
+      "transparent": true,
+      "breakable": true,
+      "hardness": 0.0,
+      "texture": "flower_yellow"
+    },
+    {
+      "id": 30,
+      "name": "Poppy",
+      "solid": false,
+      "transparent": true,
+      "breakable": true,
+      "hardness": 0.0,
+      "texture": "flower_red"
+    },
+    {
+      "id": 31,
+      "name": "Barrel Cactus",
+      "solid": true,
+      "transparent": false,
+      "breakable": true,
+      "hardness": 0.4,
+      "texture": "cactus"
+    },
+    {
+      "id": 32,
+      "name": "Bedrock",
+      "solid": true,
+      "transparent": false,
+      "breakable": false,
+      "hardness": -1.0,
+      "texture": "bedrock"
+    }
+  ]
+}
