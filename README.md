@@ -1,0 +1,2 @@
+# mincopy
+Voxel Frontier Alpha
